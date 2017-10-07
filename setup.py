@@ -4,7 +4,7 @@ from setuptools import setup
 import transloadit
 
 
-install_requires = ['requests==2.11.1', 'six==1.10.0', 'tuspy==0.1']
+install_requires = ['requests==2.11.1', 'six==1.10.0', 'tuspy==0.1', 'pypandoc==1.4']
 
 setup(
     name='pytransloadit',
@@ -15,7 +15,7 @@ setup(
     install_requires=install_requires,
     author_email='ifedapoolarewaju@gmail.com',
     description="A Python Integration for https://transloadit.com file uploading and encoding service.",
-    long_description=long_description,
+    long_description='missing',
     packages=['transloadit'],
     include_package_data=True,
     platforms='any',
